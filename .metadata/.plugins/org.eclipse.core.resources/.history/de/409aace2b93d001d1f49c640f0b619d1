@@ -1,0 +1,16 @@
+package teste.script;
+
+import javax.script.ScriptEngine;
+import javax.script.ScriptEngineFactory;
+import javax.script.ScriptEngineManager;
+import javax.script.ScriptException;
+
+public class Script {
+	    public static void main(String[] args) throws ScriptException {
+	    	ScriptEngineManager scriptEngineManager = new ScriptEngineManager();
+	    	ScriptEngine engine = scriptEngineManager.getEngineByName("nashorn");
+	    	engine.eval("print('Hello World !')");
+	         
+	        }
+	    }
+	

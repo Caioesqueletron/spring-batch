@@ -1,0 +1,13 @@
+package teste.script;
+
+import javax.script.ScriptEngineFactory;
+import javax.script.ScriptEngineManager;
+import javax.script.ScriptException;
+
+public class Script {
+	    public static void main(String[] args) throws ScriptException {
+	    	var teste = new ScriptEngineManager().getEngineFactories();
+	         
+	        }
+	    }
+	}
