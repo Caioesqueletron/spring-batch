@@ -20,4 +20,4 @@ Repositorio criado com intuito de praticar conhecimentos com o ecossistema do Sp
 2. Abrir a pasta do projeto na sua IDE de preferen
 3. Configurar um banco de dados Mysql para alguns projetos
 4. Rodar o comando `mvn install`
-6. Clicar botão direito `index.html` > `Open with Live Server`
+6. No projeto selecionado rodar a classe Application.java
